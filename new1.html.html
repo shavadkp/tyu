@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lan/g="en">
+<head>
+<title>g3 builders</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #f0dcdc;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>g3 builders</h1>
+  <p>builders and developers</p>
+</div>
+
+<nav class="navbar navbar-inverse">
+    <div class="nav navbar-nav"></div>
+      <div><a href="#">Home</a></div>
+      <div><a href="#">contact</a></div>
+      <div><a href="#">work</a></div>
+  </nav>
+
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <div><img src="https://scontent.fccj2-2.fna.fbcdn.net/v/t39.30808-6/240890136_335214165044469_6052141994960097982_n.jpg?stp=c165.0.420.420a_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=FSFpCY0S8JkQ7kNvgHyq8ze&_nc_ht=scontent.fccj2-2.fna&oh=00_AYDETLqit2YTWL6ruHTpiOpNSSjAUNf_sdUEkzPWczeqzQ&oe=66B93085" style="height:200px;"><p>logo</p></div>
+    <p>Engineers don't think the glass is half empty or half full. They just think the glass needs to be redesigned".</p>
+    <h3>partners</h3>
+    <a href="https://www.instagram.com/spacemark_studio/">spacemark/instagram!</a><P></P>
+    <a href="https://hamptonresort.com/">https://hamptonresort.com/</a><P></P>
+    <div class="img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCzZKwjB4SG0s-tkVFErd3T_UuP6IfJpg-0w&s" style="height:60px;"></div><br>
+    <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrGMRqjgdBcbORlF2w_cMsem9CBBYVHz7BTA&s">    
+    </div><br>
+    <div " style="height:60px;"></div>
+  </div>
+  <div class="main">
+    <h2>Our Vision</h2>
+    <h5>I solve problems you don’t know you have in ways you can’t understand.</h5>
+    <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc8HMeD5l-wltOTpoheKP98uWW45T1CWD3QARv9klArvNyFIrpeGZzCrwyR-mpOtceXBI&usqp=CAU"></p>
+
+    <p>We all have a vision as per our goal and interests. But if you ask an engineer about his vision you will realize that every vision has potential in itself to change the world. An engineer’s mind is a mixture of logical, analytical, and creative thinking. So every thought that comes into his mind has these three as their major dimensions.</p>
+    <br>
+    <h2>OUR MISSION</h2>
+    <h5>Title description, Sep 2, 2017</h5>
+    <div> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSccetX63cys5s0DemPi50LXO7Y1lxHYK0IMA&s" style="height:200px;"></div>
+    <p>G3 BUILDERS</p>
+    <p>The engineer's vision gives a motivation to find the solution to the problems and not adjusting to the problems. You can live your vision only if you work towards it. There are several fields where the engineer's vision comes in the role</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>contact us</h2>
+  <p><a href="https://www.instagram.com/g3bldrs21/?hl=en">instagram/g3 builders </a></p>
+  
+</div>
+
+</body>
+</html>
+
+</body>
+</html>
